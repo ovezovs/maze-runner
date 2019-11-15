@@ -1,4 +1,4 @@
-# Project Name: Maze Runner
+# **Project Name**: Maze Runner
 
 # Description
 
