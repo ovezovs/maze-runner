@@ -6,3 +6,4 @@ Utilize recursive and backtracking algorithms to map a maze, find the treasure (
 
 # Demo
 
+<img src="https://github.com/ovezovs/maze-runner/blob/master/Maze_Runner_Demo.gif" alt="Maze Runner Demo">
