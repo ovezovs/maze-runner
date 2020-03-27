@@ -1,6 +1,4 @@
-/* TODO: 
-Add header with authors names and other lab details 
-
+/* 
 Edited by: Shageldi Ovezov
 Using backtracking to find a treasure and an exit in a maze
 */
@@ -13,62 +11,6 @@ Using backtracking to find a treasure and an exit in a maze
 #include "CTurtle.hpp"
 namespace ct = cturtle;
 using namespace std;
-
-/*class Maze {
-private:
-	int rowsInMaze = 0;
-	int columnsInMaze = 0;
-	vector <vector <char>> mazeVect; // Matrix of chars
-	int xTranslate = -columnsInMaze / 2;
-	int yTranslate = rowsInMaze / 2;
-
-
-public:
-	Maze(ct::Turtle& t) {
-		readMaze("mazemap2.txt");
-
-		//t.setworldcoordinates();
-
-		t.shape("Turtle");
-		cout << "Default constructor called.\n" << endl;
-	}
-
-	void readMaze(string fileName) {
-		string line;
-		ifstream readFile(fileName);
-		int lineCount = 0;
-
-		if (!readFile.is_open()) {// Checking for errors opening the file
-			cout << ("Error opening file.");
-			return;
-		}
-		while (getline(readFile, line)) {// Reading file until the end is reached or an error occurs
-			vector <char> thisLine;
-			for (unsigned int i = 0; i < line.length(); ++i) {
-				thisLine.push_back(line[i]);
-				if (thisLine[i] == 'S') {
-					int startRow = rowsInMaze;
-					int startColumn = col;
-				}
-
-			}
-			mazeVect.push_back(thisLine);
-			lineCount++;
-		}
-
-		if (readFile.bad()) { // More error checking
-			cout << ("Error reading file.");
-			return;
-		}
-
-		readFile.close();
-		rowsInMaze = mazeVect.size();			// Updating class attributes "rows" and "cols"
-		columnsInMaze = mazeVect[0].size();
-		cout << "There are " << rowsInMaze << " rows, and " << columnsInMaze << " columns.\n\n";
-		return;
-	}
-
-};*/
 
 
 class Maze {
